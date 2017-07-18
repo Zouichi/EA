@@ -1,0 +1,138 @@
+/* ----------------------------------------- */
+/* ------------Bloc Etat CIVIL-------------- */
+/* ----------------------------------------- */
+
+.etat_civil, .rbrique_fisc, .rubrique_cred
+{
+    width:700px;
+    background-color: #cdcdcd;
+    border-radius: 20px;
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+.etat_civil input[type="radio"]
+{
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#gsm
+{
+    margin-top:5px;
+}
+
+.etat_civil p label
+{   
+    display:inline-block;
+    width:150px;
+    margin-left: 30px;
+}
+
+.etat_civil textarea
+{
+    margin-left: 30px;
+    margin-bottom:10px;
+    width:622px;
+    resize: none;
+}
+
+.situation_familial input
+{
+    display:inline-block;
+    margin-left: 20px;
+}
+
+
+.enfants_p label
+{
+    display:inline-block;
+    width:150px;
+}
+
+.modif_enf
+{
+    margin-left: 20px;
+}
+
+.enfants input[type="radio"]
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#date_naissance_e
+{
+    margin-top: 5px;
+}
+
+.enfants_p div
+{
+    margin-top:10px;
+}
+
+
+/* ----------------------------------------- */
+/* ------------Rubrique Fiscale------------- */
+/* ----------------------------------------- */
+
+.rbrique_fisc p label
+{   
+    display:inline-block;
+    width:150px;
+    margin-left: 30px;
+}
+
+.rbrique_fisc input[type="checkbox"]
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#l_interesse_c, #l_interesse
+{
+    width:620px;
+    margin-top: 5px;
+}
+
+
+/* ----------------------------------------- */
+/* ------------Rubrique Credit-------------- */
+/* ----------------------------------------- */
+
+.rubrique_cred p label
+{   
+    display:inline-block;
+    width:150px;
+    margin-left: 30px;
+}
+
+.modif_cred
+{
+    margin-left: 20px;
+}
+
+.emprunt div label
+{
+    display: inline-block;
+    width: 150px;
+    margin-left: 30px;
+}
+
+#error_emprunt, #error_enfant
+{
+    margin-left: 30px;
+    color: red;
+}
+
+/* ----------------------------------------- */
+/* ---------------Validation---------------- */
+/* ----------------------------------------- */
+
+.validation
+{
+    text-align: center;
+    width:700px;
+    margin: auto;
+}
